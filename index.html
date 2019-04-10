@@ -19,9 +19,6 @@
     <!-- Google Docs Link -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
-    <!-- // -->
-
-
     <!-- CSS Link -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 
@@ -34,39 +31,42 @@
 
 
 </head>
+<div class="row">
+    <div class="col-sm-12">
+        <h1 text-align=center>Crystals Collector!</h1>
+        <br>
+        <br>
+    </div>
 
+
+
+</div>
 
 <body>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <h1 text-align=center>Crystals Collector!</h1>
-        </div>
 
-
-    </div>
 
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
             <p class="text1">
-                You will be given a random number at the start of the game.
+                -You will be given a random number at the start of the game.
                 <br>
                 <br>
-                There are four crystals below. By clicking on a crystal you will add
+                -There are four crystals below. By clicking on a crystal you will add
                 <br>
                 a specific amount of points to your total score.
                 <br>
                 <br>
-                You win the game by matching your total score to the random number,
+                -You win the game by matching your total score to the random number,
                 <br>
-                you lose the game if your total score goes above the random number.
-                <br>
-                <br>
-                The value of each crystal is hidden from you until you click on it.
+                -you lose the game if your total score goes above the random number.
                 <br>
                 <br>
-                Each time whe the game starts, the values of each crystal will change.
+                -The value of each crystal is hidden from you until you click on it.
+                <br>
+                <br>
+                -Each time whe the game starts, the values of each crystal will change.
                 <br>
                 <br>
             </p>
@@ -76,27 +76,31 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-4">
-            <h2 id="pcGuess"></h2>
+        <div class="col-md-4"></div>
+        <div class="col-md-1">
+            <h4 id="pcGuess">Target</h4>
         </div>
-        <div id="results" class="col-sm-4">
-            <h2 id="w">Wins:</h2>
-            <h2 id="L">Losses:</h2>
+        <div id="results" class="col-md-1">
+            <p id="w">Wins: </p>
         </div>
-        <div class="col-sm-3"></div>
+        <div id="results" class="col-md-1">
+        </div>
+        <div id="results" class="col-md-1">
+            <p id="l">Losses: </p>
+        </div>
+        <div class="col-md-4"></div>
     </div>
     <div id="crystals" class="row" text-align="center">
-        <div class="col-sm-3"></div>
-        <button id="r" class="col-sm-1.5"><img class="crystalimg" src="assets/images/ruby_PNG4.png" alt="Ruby"
+        <div class="col-md-4"></div>
+        <button id="r" class="col-sm-1"><img class="crystalimg" src="assets/images/ruby_PNG4.png" alt="Ruby"
                 width="100px"></button>
-        <button id="e" class="col-sm-1.5"><img class="crystalimg" src="assets/images/274707_thumb.png" alt="Emerald"
+        <button id="e" class="col-sm-1"><img class="crystalimg" src="assets/images/274707_thumb.png" alt="Emerald"
                 width="100px"></button>
-        <button id="s" class="col-sm-1.5"><img class="crystalimg" src="assets/images/sapphire_PNG23.png" alt="Sapphire"
+        <button id="s" class="col-sm-1"><img class="crystalimg" src="assets/images/sapphire_PNG23.png" alt="Sapphire"
                 width="100px"></button>
-        <button id="c" class="col-sm-1.5"><img class="crystalimg" src="assets/images/yellowdiamond.png"
+        <button id="c" class="col-sm-1"><img class="crystalimg" src="assets/images/yellowdiamond.png"
                 alt="Canary_Diamond" width="100px"></button>
-        <div class="col-sm-3"></div>
+        <div class="col-md-4"></div>
     </div>
     <div class="row">
         <div class="col-sm-4"></div>
@@ -104,11 +108,11 @@
         <div class="col-sm-4"></div>
     </div>
     <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
             <h2 id="userGuess"></h2>
         </div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-5"></div>
     </div>
 
 

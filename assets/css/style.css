@@ -1,9 +1,41 @@
 body {
-    /* background-image: url("unit-4-game/assets/images/congruent_outline.png"); */
+   
     font-family: 'Merriweather', serif;
-    text-align: center;
+    background: url("../congruent_outline.png");
+    background-color: black;
+    
 }
 
 h1 {
     text-align: center;
+    color:gray;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+}
+
+div {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font:6px
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+button {
+    margin: 2px;
+}
+
+button {
+    background-color: darkgrey
 }
